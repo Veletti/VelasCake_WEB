@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Para hacer páginas en castellano poner lang="es" -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <link rel="stylesheet" type="text/css" href="/CSS/reset.css"> <!-- Aqui linkaremos el css reset (valorar ponerlo dentro de una carpeta /css dentro del directorio raíz de la web) -->
+        <link rel="stylesheet" type="text/css" href="/CSS/mystyle.css"> <!-- Aqui linkaremos nuestro css (valorar ponerlo dentro de una carpeta /css dentro del directorio raíz de la web) -->
+        <title>Vela's Cakes</title>
+    </head>
+    <header>
+        <ul id="Menu izquierda">
+            <li ="menú">
+                <a href=""><h1>Inicio</h1></a>
+                <a href=""><h1>Conócenos</h1></a>
+                <a href=""><h1>Tienda</h1></a>
+                <a href=""><h1>Pedidos</h1></a>
+                <a href=""><h1>Qué hacemos</h1></a>
+            </li>
+            <li>
+                <a href="button"><h1>es</h1></a>
+                <a href="button"><h1>en</h1></a>
+            </li>
+        </ul>
+    </header>
+        <section>
+            Aquí pondremos el logo
+        </section> 
+        <article>
+            Aqui pondremos las fotos con el link a la tienda vista completa
+        </article>   
+        <footer>
+            Aqui pondremos el pie de página.
+        </footer>
+
+
+            <table>
+                <nav><!-- Se pone habitualmente dentro del header, porque la barra de navegación acostumbra a estar en la cabecera, pero podría estar fuera -->
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                </nav>
+            </table>
+            <table style="border:hidden">
+
+            <nav>
+                <tr>
+                <td><button type="button" onclick="setLanguaje('es')" >ES</button></td>
+                <td><button type="button" onclick="setLanguaje('en')" >EN</button></td>
+                </tr>
+            </nav>
+            </table>
+
+            <h1>Most important heading here</h1>
+            <h3>Less important heading here</h3>
+            <p>Some additional information here</p>
+        <main> <!-- Los elementos que no sean comunes entre varias páginas, deberían estar dentro del main -->
+            <section class="es"> <!-- Section en castellano -->
+                <h1>WWF</h1>
+                <p>La World Wide Fund for Nature (WWF) es....</p>
+                <article>
+                    <h1>Google Chrome</h1>
+                    <p>Google Chrome es un navegador web open-source y gratuito desarrollado por Google y lanzado en 2008.</p>
+                </article>      
+            </section>
+
+            <section class="en"> <!-- Mismo section anterior pero en english. Sólo uno va a ser visible al mismo tiempo. -->
+                <h1>WWF</h1>
+                <p>The World Wide Fund for Nature (WWF) is....</p>
+                <article>
+                    <h1>Google Chrome</h1>
+                    <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+                </article>      
+            </section>
+        </main>
+        <footer>
+            <p>Posted by: Hege Refsnes</p>
+            <p>Contact information: <a href="mailto:someone@example.com"> someone@example.com</a>.</p>
+        </footer>
+
+    <script src="myscript.js"></script> <!-- Aqui linkaremos el fichero de nuestros javascripts -->
+    
+    </body>
+</html>

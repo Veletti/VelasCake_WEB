@@ -1,0 +1,754 @@
+/*AQUÍ ESTILIZAREMOS EL CONTENIDO DEL BODY(CUERPO ENTERO)*/
+.en{
+  display: none;
+}
+body{
+  background: #e9ffff;
+  font-family: Pacifico;
+  text-align: center;  
+}
+
+
+/*AQUI SE ESTILIZARÁ LA BARRA NAVEGACIÓN DE LA WEB*/
+/*Estilizar cabecera*/
+.header{
+  width: 100%;
+  background: cornflowerblue;
+  position: fixed;
+  top: 0;
+  min-height: 80px;
+}
+
+
+
+/*Estilizar navegación*/
+.navegacion{
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.navegacion li{
+  display: inline-block;
+}
+.menu-icon{
+  display: none;
+}
+.menu-icon img{
+  width: 30px;
+  height: 30px;
+  padding-top: 8px;
+}
+.navegacion a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+.navegacion ul li{
+  padding: 15px 15px;
+  transition: all 0.3s linear;
+  border-radius: 20px;
+}
+.navegacion ul li:hover{
+  background: pink;
+  padding: 10px 10px;
+}
+.idioma{
+  margin: auto;
+}
+.idioma img{
+  width: 35px;
+  height: 35px;
+}
+
+
+
+/*ESTE APARTADO PERTENECE AL LOGO*/
+/*Estilizar el logo*/
+.logo .web section{
+  display: block;
+}
+.logo{
+  padding-top: 70px;
+}
+.logo img{
+  width: 80%;
+  max-width: 300px;
+  padding: 35px 0;
+}
+
+
+
+/*ESTE APARTADO PERTENCE A LA PÁGINA INICIO*/
+div{
+  display: block;
+}
+.top{
+  width: 80%;
+  max-width: 1200px;
+  margin: 25px;
+  display: inline-block;
+  justify-content: space-between;
+}
+.top img{
+  margin: 15px;
+  width: 300px;
+}
+
+
+
+/*ESTER APARTADO PERTENCE A LA PÁGINA CONÓCENOS*/
+.bizcocho article{
+  display: inline-block;
+  width: 80%;
+  max-width: 1200px;
+}
+.bizcocho img{
+  float: left;
+  width: 500px;
+}
+.bizcocho div{
+  padding-top: 25px;
+  float: left;
+  width: 50%;
+}
+.bizcocho h1{
+  text-align: center;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-family: Architects Daughter;
+  hyphens: auto;
+}
+.bizcocho p{
+  padding: 40px 25px;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: justify;
+  font-family: Architects Daughter;
+  hyphens: auto;
+}
+.pastelito article{
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: inline-block;
+  width: 80%;
+  max-width: 1200px;
+}
+.pastelito img{
+  float: right;
+  width: 500px;
+}
+.pastelito div{
+  padding-top: 25px;
+  float: right;
+  width: 50%;
+}
+.pastelito h1{
+  text-align: center;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-family: Architects Daughter;
+  hyphens: auto;
+}
+.pastelito p{
+  padding: 40px 25px;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: justify;
+  font-family: Architects Daughter;
+  hyphens: auto;
+}
+
+
+
+/*ESTE APARTADO PERTENECE A LA PÁGINA EVENTOS*/
+.eventos{
+  padding-top: 110px;
+  padding-bottom: 40px;
+  max-width: 1500px;
+  margin: auto;
+}
+.eventos h1{
+  font-size: 5em;
+  text-decoration: underline;
+}
+.eventos{
+  padding-top: 110px;
+  padding-bottom: 40px;
+  max-width: 1500px;
+  margin: auto;
+}
+.eventos h1{
+  font-size: 5em;
+  text-decoration: underline;
+}
+.web{
+  padding-bottom: 40px;
+  max-width: 1500px;
+  margin: auto;
+  display: block;
+}
+.cumpleanos{
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  hyphens: auto;
+}
+.cumpleanos img{
+  float: left;
+  width: 600px;
+  margin: auto;
+}
+.cumpleanos div{
+  float: left;
+  width: 500px;
+  
+}
+.cumpleanos h1{
+  margin: 35px 0;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-family: Architects Daughter;
+}
+.cumpleanos p{
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: justify;
+  font-family: Architects Daughter;
+}
+.bodas{
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  hyphens: auto;
+}
+.bodas img{
+  float: right;
+  width: 600px;
+  margin: auto;
+}
+.bodas div{
+  float: left;
+  width: 500px;
+}
+.bodas h1{
+  margin: 35px 0;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-family: Architects Daughter;
+}
+.bodas p{
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: justify;
+  font-family: Architects Daughter;
+}
+.catering{
+  display: inline-block;
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  hyphens: auto;
+}
+.catering img{
+  float: left;
+  width: 600px;
+  margin: auto;
+}
+.catering div{
+  float: left;
+  width: 500px;
+  
+}
+.catering h1{
+  margin: 35px 0;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-family: Architects Daughter;
+}
+.catering p{
+  padding: 20px;
+  padding-top: 20px;
+  font-size: 1.2em;
+  line-height: 25px;
+  text-align: justify;
+  font-family: Architects Daughter;
+}
+
+
+
+/*ESTE APARTADO PERTENECE A LA PÁGINA PEDIDOS*/
+/*titulo de la página*/
+.pedidos{
+  width: 80%;
+  max-width: 1500px;
+  padding-bottom: 50px;
+  display: inline-block;
+  font-family: Architects Daughter;
+}
+.pedidos_texto h1{
+  padding-bottom: 40px;
+  max-width: 1500px;
+  font-size: 5em;
+  margin: auto;
+}
+/*zona de horarios*/
+.pedidos h1{
+  font-size: 3em;
+  text-decoration: underline;
+}
+.grupo__horario{/*azul*/
+  float: left;
+  display: block;
+  width: 30%;
+  padding-right: 10px;
+}
+.grupo__horario h1{
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 35px;
+  margin-top: 50px;
+}
+.grupo__horario p{
+  font-size: 1.2em;
+  line-height: 20px;
+}
+
+/*formulario*/
+/*Para todos*/
+.formulario{
+  font-family: Architects Daughter;
+  grid-template-columns: 50% 50%;
+  width: 70%;
+  padding: 15px 40px 15px 40px;
+  float: left;
+  display: grid;  
+  gap: 20px
+}
+.formulario__label{
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+.formulario__grupo,
+.formulario__grupo-comentarios label{
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.formulario__input{
+  width: 80%;
+  font-family: Architects Daughter;
+  background: #ffffff;  
+  border: 3px solid transparent;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 45px;
+  padding: 0px 40px 0 10px;
+  transition: 0.3s ease all;
+  font-size: 20px;
+}
+.formulario__input:focus{
+  border: 3px solid #0075ff;
+  outline: none;
+  box-shadow: 3px 0 30px rgba(163,163,163,0.4);
+}
+
+/*Individuales*/
+.formulario__grupo-comentarios textarea{
+  height: 200px;
+}
+.formulario__input-comentarios{
+  width: 80%;
+  font-family: Architects Daughter;
+  background: #ffffff;  
+  border: 3px solid transparent;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 30px;
+  padding: 0px 10px 0 10px;
+  transition: 0.1s ease all;
+  font-size: 20px;
+}
+.formulario__input-comentarios:focus{
+  border: 3px solid #0075ff;
+  outline: none;
+  box-shadow: 3px 0 30px rgba(163,163,163,0.4);
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__mensaje_en,
+.formulario__btn-enviar,
+.formulario__grupo-comentarios{
+  grid-column: span 2;
+}
+.formulario__mensaje{
+  max-width: 100%;
+  line-height: 45px;
+  background: #f66060;
+  padding: 0 15px;
+  border-radius: 50px;
+  display: none;
+}
+.formulario__mensaje-activo{
+  display: block;
+}
+.formulario__mensaje_en{
+  max-width: 100%;
+  line-height: 45px;
+  background: #f66060;
+  padding: 0 15px;
+  border-radius: 50px;
+  display: none;
+}
+.formulario__mensaje_en-activo{
+  display: block;
+}
+.formulario__mensaje i{
+  margin-right: 10px;
+}
+.formulario__btn-enviar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario__btn-enviar button{
+  height: 45px;
+  line-height: 45px;
+  width: 30%;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .1s ease all;
+}
+.formulario__btn-enviar button:hover{
+  box-shadow: 3px 0px 30px rgba(163,163,163,1);
+}
+.formulario__mensaje-exito{
+  font-size: 20px;
+  padding-top: 25px;
+  color: #119200;
+  display: none;
+}
+.formulario__mensaje-exito-activo{
+  display: block;
+}
+.formulario__mensaje-exito_en{
+  font-size: 20px;
+  padding-top: 25px;
+  color: #119200;
+  display: none;
+}
+.formulario__mensaje-exito_en-activo{
+  display: block;
+}
+
+
+
+/*AQUÍ SE ESTILIZARÁ EL PIE DE LA PÁGINA WEB*/
+/*Estilizar el pie*/
+footer{
+  width: 100%;
+  background: cornflowerblue;
+  color: white;
+  font-family: Architects Daughter;
+  hyphens: auto;
+}
+/*Body completo*/
+.container-body{ 
+  margin: auto; 
+  width: 100%;
+  max-width: 1500px;
+  padding: 20px 0 ;
+  display: flex;
+  justify-content: space-between;
+}
+.container-body div{
+  margin: auto;
+}
+/*Cuadro izquierda*/
+.izquierda{
+  max-width: 350px;
+  text-align: start;
+}
+.izquierda h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.informacion  p{
+  font-size: 1em;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font: lighter;
+  line-height: 20px;
+}
+.horario p{
+  font-size: 1em;
+  color: white;
+  margin-top: 10px;
+  font: lighter;
+}
+.horario .bold{
+  font-weight: bold;
+}
+/*Cuadro centro*/
+.centro{
+  max-width: 400px;
+}
+.centro h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.centro .fila{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.fila img{
+  width: 35px;
+  height: 35px;
+}
+.fila label{
+  margin-left: 10px;
+  color: white;
+}
+/*Cuadro derecha*/
+.derecha{
+  max-width: 300px;
+}
+.derecha h1{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.derecha .filad{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.filad img{
+  width: 35px;
+  height: 35px;
+}
+.filad label{
+  margin-left: 10px;
+  color: white;
+  hyphens: auto;
+  text-align: start;
+}
+/*Pie del footer*/
+.container-footer{
+  margin: auto; 
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
+.container-footer div{
+  font-size: 1em;
+  margin: 15px;  
+}
+.terminos{
+  width: auto;
+}
+.terminos a{
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+}
+
+
+/*Responsive*/
+/*AQUÍ ESTILIZAREMOS EL HEADER Y NAVEGACIÓN*/
+@media screen and (max-width :1185px){
+  .pedidos{
+    width: 100%;
+  }
+  .pedidos{
+    display: inline-block;
+  }
+  .grupo__horario{
+    display: none;
+  }
+  .formulario{
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  .formulario__grupo-comentarios{
+    float: none;
+  }
+  .formulario__mensaje{
+    margin-top: 25px;
+  }
+  .formulario__btn-enviar{
+    padding-top: 25px;
+  }
+}
+@media screen and (max-width :1250px){
+  .bizcocho img{
+    float: none;
+  }
+  .bizcocho div{
+    width: 100%;
+    hyphens: auto;
+  }
+  .pastelito img{
+    float: none;
+  }
+  .pastelito div{
+    width: 100%;
+    hyphens: auto;
+  }
+}
+@media screen and (max-width :1170px){
+  .web{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    max-width: 1100px;    
+  }
+  .cumpleanos img{
+    float: none;
+  }
+  .cumpleanos div{
+    width: 100%;
+    hyphens: auto;
+  }
+  .cumpleanos p{
+    padding-top: 1px;
+  }
+
+  .bodas img{
+    float: none;
+  }
+  .bodas div{
+    width: 100%;
+    hyphens: auto;
+  }
+  .bodas p{
+    padding-top: 1px;
+  }
+  .catering img{
+    float: none;
+  }
+  .catering div{
+    width: 100%;
+    hyphens: auto;
+  }
+  .catering p{
+    padding-top: 1px;
+  }
+}
+@media screen and (max-width :950px){
+  .seleccion li{
+    display: block;
+  }
+  .menu-icon{
+    float: left;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 15px;
+    display: block;
+    cursor: pointer;
+  }
+  .seleccion ul{
+    display: none;
+  }
+  .seleccion ul.show{
+    display: block;
+  }
+  .container-footer{
+    display: none;
+  }
+}
+@media screen and (max-width: 880px){
+  .izquierda{
+    display: none;
+  }
+}
+@media screen and (max-width :810px){
+  .pedidos_texto h1{
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 550px){
+  .container-body{
+    display: block;
+    
+  }
+  .centro{
+    padding-bottom: 35px;
+  }
+  .fila{
+    justify-content: center;
+  }
+}
+@media screen and (max-width :509px){
+  .pedidos_texto h1{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width :500px){
+  .web h1{
+    font-size: 1.5em;
+  }
+  .web p{
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width :450px){
+  .web h1{
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width :414px){
+  .pedidos_texto h1{
+    font-size: 2em;
+  }
+  .formulario__grupo-comentarios label{
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .formulario__input{
+    width: 80%;
+    font-family: Architects Daughter;
+    background: #ffffff;  
+    border: 3px solid transparent;
+    border-radius: 50px;
+    height: 40px;
+    line-height: 45px;
+    padding: 0px 40px 0 10px;
+    transition: 0.3s ease all;
+    font-size: 15px;
+  }
+  .formulario__input-comentarios{
+    width: 90%;
+    font-family: Architects Daughter;
+    background: #ffffff;  
+    border: 3px solid transparent;
+    border-radius: 5px;
+    line-height: 25px;
+    padding: 0px 10px 0 10px;
+    transition: 0.1s ease all;
+    font-size: 15px;
+  }
+  
+
+}
+
+
+

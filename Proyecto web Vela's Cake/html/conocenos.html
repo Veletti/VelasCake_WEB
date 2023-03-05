@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Para hacer páginas en castellano poner lang="es" -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <link rel="stylesheet" type="text/css" href="/css/reset.css"> <!-- Aqui linkaremos el css reset (valorar ponerlo dentro de una carpeta /css dentro del directorio raíz de la web) -->
+        <link rel="stylesheet" type="text/css" href="/css/index.css"> <!-- Aqui linkaremos nuestro css (valorar ponerlo dentro de una carpeta /css dentro del directorio raíz de la web) -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Preconexión a la página donde he sacado la fuente de mi página web -->
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- URL de donde he descargado la fuente -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+        <link rel="icon" href="/imagenes/iconos/velascakes.png" sizes="47x61">
+        <link rel="apple-touch-icon" href="/imagenes/iconos/velascakes.png">
+        <title>Vela's Cakes</title>
+    </head>
+
+    <body>
+
+        <div class="contenedor">
+
+            <header class="header">
+                <span class="menu-icon"><img src="/imagenes/iconos/menu.png" alt=""></span>             
+                <div class="navegacion">
+                    <nav class=menu>                                                
+                        <div class="seleccion">
+
+                            <section class="es">
+                                <ul>
+                                    <li><a href="/index.html"><p>Inicio</p></a></li>                                
+                                    <li><a href="/html/conocenos.html"><p>Conócenos</p></a></li>
+                                    <li><a href="/html/eventos.html"><p>Eventos</p></a></li>
+                                    <li><a href="/html/pedidos.html"><p>Pedidos</p></a></li>
+                                </ul>
+                            </section>
+
+                            <section class="en">
+                                <ul>
+                                    <li><a href="/index.html"><p>Home</p></a></li>                                
+                                    <li><a href="/html/conocenos.html"><p>About us</p></a></li>
+                                    <li><a href="/html/eventos.html"><p>Events</p></a></li>
+                                    <li><a href="/html/pedidos.html"><p>Orders</p></a></li>  
+                                </ul>
+                            </section>
+                        </div>
+                    </nav>  
+
+                    <nav>                    
+                        <div class="idioma">
+                            <ul>
+                                <li><a onclick="cambioidioma('es')"><img src="/imagenes/iconos/esp.png"></a></li>
+                                <li><a onclick="cambioidioma('en')"><img src="/imagenes/iconos/ing.png"></a></li>
+                            </ul>
+                        </div>                        
+                    </nav>
+                </div>
+            </header>
+
+            <!-- Sección dedicada al logo de la empresa -->
+            <figure class="logo">
+                <img src="/imagenes/logo/logo.png">
+            </figure>
+            
+            <!-- Sección dedicada a los artículos de la página -->
+            <section class="bizcocho">
+                <article>
+                    <img src="/imagenes/imagen/bizcocho.jpg">
+                    <div>
+                        <h1 class="es">Nuestro Obrador</h1>
+                        <p class="es">
+                            Hacemos una pastelería saludable sin gluten y también sin lactosa que se adapta a tu estilo de vida. Aprovechamos las propiedades nutricionales de productos como las frutas, las verduras, los frutos secos y las especias. El resultado es una pastelería más digestiva, más nutritiva y energética, más sabrosa y más natural, y por lo tanto, más saludable y apta para un mayor número de público.
+                        </p>
+                        <h1 class="en">Our bakery</h1>
+                        <p class="en">
+                            We make a healthy gluten-free and lactose-free pastry that adapts to your lifestyle. We take advantage of the nutritional properties of products such as fruits, vegetables, nuts and spices. The result is a more digestive, nutritious and energetic pastry, tastier and more natural, and therefore healthier and suitable for a larger number of people.
+                        </p>
+                    </div>                    
+                </article>
+            </section>
+
+            <section class="pastelito">
+                <article>
+                    <img src="/imagenes/imagen/pastelito.jpg">
+                    <div>
+                        <h1 class="es">Compra directa sin intermediarios</h1>
+                        <p class="es">
+                            En nuestro Obrador te atenderemos personalmente y podrás comprar directamente sin intermediarios nuestros productos artesanales de calidad a un precio razonable. Como podrás ver en nuestra tienda online todos nuestros productos son sin gluten, pero también tenemos productos sin lactosa, sin proteína de la leche de vaca e incluso veganos.
+                        </p>
+                        <h1 class="en">Direct purchase without intermediaries</h1>
+                        <p class="en">
+                            In our Obrador we will attend you personally and you can buy our quality artisan products directly without intermediaries at a reasonable price. As you can see in our online store, all of our products are gluten-free, but we also have lactose-free products, without cow's milk protein and even vegan.
+                        </p>
+                    </div>                    
+                </article>
+            </section>
+
+            <footer>
+                <!-- Sección dedicada al pie de la empresa -->
+                <div class="container-all">
+
+                    <div class="container-body">
+
+                        <div class="izquierda">
+                            <h1 class="es">Más información</h1>
+                            <h1 class="en">More information</h1>
+
+                            <div class="informacion">
+                                <p class="es">Producimos nuestros propios productos sin gluten y los vendemos tanto a clientes particulares como a profesionales de la restauración. Recogidas en el obrador o entregas a domicilio.
+                                 </p>
+                                 <p class="en">We produce our own gluten-free products and we sell them to both private customers and to catering professionals. Collected in the workshop or home deliveries.
+                                 </p>
+                            </div>
+                            
+                            <div class="horario">
+                                <p class="bold es">Horario de atención al cliente:</p>
+                                <p class="es">De Lunes a Viernes de 9:30h a 13:00h y de 16:00h a 18:30h</p>
+                                <p class="es">Sábados 10:00h - 13:00h</p>
+
+                                <p class="bold en">Customer service hours:</p>
+                                <p class="en">Monday to Friday 9:30h to 13:00h & 16:00h to 18:30h</p>
+                                <p class="en">Saturday 10:00h to 13:00h</p>
+                            </div>
+                        </div>
+    
+                        <div class="centro">
+                            <h1 class="es">Redes sociales</h1>
+                            <h1 class="en">Social networks</h1>
+                            <div class="fila">
+                                <a href="https://www.facebook.com/"><img src="/imagenes/redes_sociales/facebook.png"></a>
+                                <label class="es">Síguenos en Facebook</label>
+                                <label class="en">Follow us in Facebook</label>
+                            </div>
+                            <div class="fila">
+                                <a href="https://www.instagram.com"><img src="/imagenes/redes_sociales/instagram.png"></a>
+                                <label class="es">Síguenos en Instagram</label>
+                                <label class="en">Follow us in Instagram</label>
+                            </div>
+                            <div class="fila">
+                                <a href="https://www.twitter.com"><img src="/imagenes/redes_sociales/twitter.png"></a>
+                                <label class="es">Síguenos en Twitter</label>
+                                <label class="en">Follow us in Twitter</label>
+                            </div>
+                        </div>
+    
+                        <div class="derecha">
+                            <h1 class="es">Información contactos</h1>
+                            <h1 class="en">Contacts information</h1>
+                            <div class="filad">
+                                <img src="/imagenes/iconos/casa.png">
+                                <label>Plaça dels Pastissos 3 Local 4 08052 Barcelona</label>
+                            </div>
+                            <div class="filad">
+                                <img src="/imagenes/iconos/arroba.png">
+                                <label>cakes@velascakes.com</label>
+
+                            </div>
+                            <div class="filad">
+                                <img src="/imagenes/iconos/phone.png">
+                                <label>+34 93-823-2345</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-footer">    
+                        <div class="copyright">
+                            <p class="es">© 2017 Todos los Derechos Reservados</p>
+                            <p class="en">© 2017 All rights reserved</p>
+                        </div>
+                        <div class="terminos">
+                            <a href="">Información Compañía</a>
+                            <a href="">Privación y Política</a>
+                            <a href="">Términos y Condiciones</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Aqui linkaremos el fichero de nuestros javascripts -->
+        <script src="/java/index.js"></script>
+
+    </body>
+
+</html>
